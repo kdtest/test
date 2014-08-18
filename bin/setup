@@ -1,13 +1,13 @@
 #!/bin/bash
-set -e
+#set -e
 #set -x
 
 source $OPENSHIFT_CARTRIDGE_SDK_BASH
 
 #SYSTEM_TOMCAT_DIR=/etc/alternatives/tomcat-8.0
 
-mkdir -p ${OPENSHIFT_TOMCAT_DIR}/{run,tmp,conf,logs}
-mkdir -p ${OPENSHIFT_HOMEDIR}/.m2
+/bin/mkdir -p ${OPENSHIFT_TOMCAT_DIR}/{run,tmp,conf,logs}
+#/bin/mkdir -p ${OPENSHIFT_HOMEDIR}/.m2
 
 # Link the system Tomcat binaries to the cart Tomcat instance directory
 #ln -s ${SYSTEM_TOMCAT_DIR}/bin/bootstrap.jar ${OPENSHIFT_TOMCAT_DIR}/bin/bootstrap.jar
