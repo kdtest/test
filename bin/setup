@@ -2,6 +2,8 @@
 set -e
 #set -x
 
+source $OPENSHIFT_CARTRIDGE_SDK_BASH
+
 #SYSTEM_TOMCAT_DIR=/etc/alternatives/tomcat-8.0
 
 mkdir -p ${OPENSHIFT_TOMCAT_DIR}/{run,tmp,conf,logs}
