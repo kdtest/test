@@ -7,6 +7,7 @@ Description: "Apache Tomcat is an open source software implementation of the Jav
 Version: '8.0'
 License: ASL 2.0
 Vendor:  apache
+Source-Url: https://github.com/kdtest/test.git 
 Categories:
   - service
   - java
